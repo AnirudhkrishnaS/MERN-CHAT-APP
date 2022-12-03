@@ -1,21 +1,21 @@
 import React from 'react'
-import { Box, Center, Container, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from '@chakra-ui/react'
+import { Box, Container, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from '@chakra-ui/react'
 import Login from '../components/Authentication/Login'
 import SignUp from '../components/Authentication/SignUp'
 
 function Homepage() {
   return (
     
-    <Container maxW='xl' pt={"03%"} centerContent>
+    <Container maxW='xl' pt={"3%"} centerContent>
     <Box
     d='flex'
     p={3}
    justifyContent = "Center"
     bg={"white"}
-    w="100%"
-    m="40px 0 15px 0"
+      w="100%"
+      m="40px 0 15px 0"
     borderRadius = "lg"
-    borderWidth="2px"
+    // borderWidth="2px"
     >
 
       <Text fontSize={'4xl'} textAlign="center" fontFamily="Work sans" color={'black'}>Talk-A-Tive</Text>
